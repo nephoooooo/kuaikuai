@@ -1,0 +1,32 @@
+{
+  "name": "kuaikuai",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "description": "Best wishes for your app :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "rollup -c && node build/kuaikuai.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nephoooooo/kuaikuai.git"
+  },
+  "bin": {
+    "kuaikuai": "./build/kuaikuai.js"
+  },
+  "author": "Sherlock Kuo (https://github.com/nephoooooo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nephoooooo/kuaikuai/issues"
+  },
+  "homepage": "https://github.com/nephoooooo/kuaikuai#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-cli": "^0.1.5"
+  },
+  "dependencies": {
+    "cli-color": "^1.2.0"
+  }
+}
